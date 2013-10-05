@@ -1,0 +1,10 @@
+{
+ "folders":
+ [
+   {
+     "path": ".",
+     "folder_exclude_patterns": ["pkg", "tmp", "log", "coverage"],
+     "file_exclude_patterns": ["tomatoes.sublime-workspace"]
+   }
+ ]
+}
