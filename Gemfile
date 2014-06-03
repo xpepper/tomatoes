@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '3.2.16'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -32,13 +32,11 @@ gem 'unicorn'
 gem 'newrelic_rpm'
 
 # Memcached
+gem 'memcachier'
 gem 'dalli'
 
 # Pagination
 gem 'kaminari'
-
-# Gamification
-gem 'merit'
 
 # Notify exceptions
 gem 'exception_notification'
